@@ -1,0 +1,9 @@
+3
+rotate 0 row 1 right
+rotate 1 row 2 right
+rotate 2 row 0 right
+rotate 3 row 2 left
+rotate 4 row 1 left
+rotate 5 row 0 left
+rotate 0 column 1 up
+rotate 1 column 2 up
