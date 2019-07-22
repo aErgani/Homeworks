@@ -1,0 +1,220 @@
+type P if you want to play ConnectFour Plus
+type D if you want to play ConnectFour Diag
+type U if you want to play Connectfour PlusUndo
+P
+Enter Height
+10
+Enter Width
+10
+Initializing Board
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+Here is your Board
+Type 'P' if you want to play PvP. Type 'C' if you want to play against Mr. Omnipotent
+C
+Select a column player 1 , You may also LOAD or SAVE
+A
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . . . . . . . .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X O . . . . . . . .
+Select a column player 1 , You may also LOAD or SAVE
+A
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . . . . . . . .
+X O . . . . . . . .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . . . . . . . .
+X O . . . . . O . .
+Select a column player 1 , You may also LOAD or SAVE
+A
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . . . . . . . .
+X . . . . . . . . .
+X O . . . . . O . .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . . . . . .
+X O . . . . . O . .
+Select a column player 1 , You may also LOAD or SAVE
+SAVE
+enter file name player 1
+S1.TXT
+select a column player 1
+F
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . . . . . .
+X O . . . X . O . .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . . . . . .
+X O . . . X . O . .
+Select a column player 1 , You may also LOAD or SAVE
+F
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . X . . . .
+X O . . . X . O . .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . X . . . .
+X O . . . X . O . O
+Select a column player 1 , You may also LOAD or SAVE
+D
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . X . . . .
+X O . X . X . O . O
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . . . X . . . .
+X O . X O X . O . O
+Select a column player 1 , You may also LOAD or SAVE
+D
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . X . X . . . .
+X O . X O X . O . O
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . . . . . .
+X . . X . X . . . .
+X O . X O X . O O O
+Select a column player 1 , You may also LOAD or SAVE
+F
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . X . . . .
+X . . X . X . . . .
+X O . X O X . O O O
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . . . . . . . .
+O . . . . . . . . .
+X . . . . X . . . .
+X . . X . X . . . .
+X O . X O X o o o o
+MR OMNIPOTENT WON AS EXPECTED

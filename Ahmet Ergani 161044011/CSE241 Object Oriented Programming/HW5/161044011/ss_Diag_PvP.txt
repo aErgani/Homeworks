@@ -1,0 +1,452 @@
+type P if you want to play ConnectFour Plus
+type D if you want to play ConnectFour Diag
+type U if you want to play Connectfour PlusUndo
+D
+Enter Height
+12
+Enter Width
+12
+Initializing Board
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+Here is your Board
+Type 'P' if you want to play PvP. Type 'C' if you want to play against Mr. Omnipotent
+P
+Select a column player 1 , You may also LOAD or SAVE
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . . . . . . . .
+total dot is 144 full cell is 1
+Select a column player 2 , You may also LOAD or SAVE
+F
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+total dot is 144 full cell is 2
+Select a column player 1 , You may also LOAD or SAVE
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . . . . . . . .
+X . . . . O . . . . . .
+total dot is 144 full cell is 3
+Select a column player 2 , You may also LOAD or SAVE
+F
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+total dot is 144 full cell is 4
+Select a column player 1 , You may also LOAD or SAVE
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+total dot is 144 full cell is 5
+Select a column player 2 , You may also LOAD or SAVE
+F
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+total dot is 144 full cell is 6
+Select a column player 1 , You may also LOAD or SAVE
+C
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . . . .
+total dot is 144 full cell is 7
+Select a column player 2 , You may also LOAD or SAVE
+SAVE
+enter file name player 2
+S3.TXT
+select a column player 2
+J
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . O . .
+total dot is 144 full cell is 8
+Select a column player 1 , You may also LOAD or SAVE
+J
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . X . .
+X . X . . O . . . O . .
+total dot is 144 full cell is 9
+Select a column player 2 , You may also LOAD or SAVE
+J
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . O . .
+X . . . . O . . . X . .
+X . X . . O . . . O . .
+total dot is 144 full cell is 10
+Select a column player 1 , You may also LOAD or SAVE
+J
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . X . .
+X . . . . O . . . O . .
+X . . . . O . . . X . .
+X . X . . O . . . O . .
+total dot is 144 full cell is 11
+Select a column player 2 , You may also LOAD or SAVE
+J
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . O . .
+. . . . . . . . . X . .
+X . . . . O . . . O . .
+X . . . . O . . . X . .
+X . X . . O . . . O . .
+total dot is 144 full cell is 12
+Select a column player 1 , You may also LOAD or SAVE
+LOA
+invalid input try something else player 1
+LOAD
+enter file name player 1
+S3.TXT
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . . . .
+select a column player 1
+J
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 8
+Select a column player 2 , You may also LOAD or SAVE
+UNDO
+invalid input try something else player 1
+UNDO
+invalid input try something else player 1
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 9
+Select a column player 1 , You may also LOAD or SAVE
+F
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 10
+Select a column player 2 , You may also LOAD or SAVE
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 11
+Select a column player 1 , You may also LOAD or SAVE
+F
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 12
+Select a column player 2 , You may also LOAD or SAVE
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 13
+Select a column player 1 , You may also LOAD or SAVE
+F
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 14
+Select a column player 2 , You may also LOAD or SAVE
+A
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . . O . . . X . .
+total dot is 144 full cell is 15
+Select a column player 1 , You may also LOAD or SAVE
+E
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X . X O . . . X . .
+total dot is 144 full cell is 16
+Select a column player 2 , You may also LOAD or SAVE
+D
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . . . O . . . . . .
+X . X O X O . . . X . .
+total dot is 144 full cell is 17
+Select a column player 1 , You may also LOAD or SAVE
+D
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . X . O . . . . . .
+X . X O X O . . . X . .
+total dot is 144 full cell is 18
+Select a column player 2 , You may also LOAD or SAVE
+E
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+X . . . . O . . . . . .
+X . . X O O . . . . . .
+X . X O X O . . . X . .
+total dot is 144 full cell is 19
+Select a column player 1 , You may also LOAD or SAVE
+E
+A B C D E F G H I J K L
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+O . . . . . . . . . . .
+O . . . . X . . . . . .
+O . . . . X . . . . . .
+O . . . . x . . . . . .
+X . . . x O . . . . . .
+X . . x O O . . . . . .
+X . x O X O . . . X . .
+YOU WON PLAYER 1

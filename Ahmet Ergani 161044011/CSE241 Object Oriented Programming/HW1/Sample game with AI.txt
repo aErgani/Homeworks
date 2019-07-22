@@ -1,0 +1,344 @@
+C:\Users\ahmte\Desktop\C++\cmake-build-debug\C__.exe
+Enter board size (an even number between 4 and 20 )
+2
+2
+Invalid input, try something else
+Enter board size (an even number between 4 and 20 )
+7
+7
+Invalid input, try something else
+Enter board size (an even number between 4 and 20 )
+25
+25
+Invalid input, try something else
+Enter board size (an even number between 4 and 20 )
+
+
+a
+a
+Invalid input, try something else
+Enter board size (an even number between 4 and 20 )
+10
+10
+type 'P' if you want to play PvP
+type 'C' if you want to face Mr Omnipotent!
+a
+a
+invalid input try again
+C
+C
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+select a column player 1
+D
+D
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . X . . . . . .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. O . X . . . . . .
+select a column player 1
+I
+I
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. O . X . . . . X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. O . X . . . O X .
+select a column player 1
+A
+A
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X O . X . . . O X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X O . X O . . O X .
+select a column player 1
+D
+D
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . X . . . . . .
+X O . X O . . O X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+O . . X . . . . . .
+X O . X O . . O X .
+select a column player 1
+D
+D
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . X . . . . . .
+O . . X . . . . . .
+X O . X O . . O X .
+Mr Omnipotent : HAHAHAAA NOT SO FAST
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+. . . X . . . . . .
+O . . X . . . . . .
+X O . X O . . O X .
+select a column player 1
+E
+E
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+. . . X . . . . . .
+O . . X X . . . . .
+X O . X O . . O X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+. . . X O . . . . .
+O . . X X . . . . .
+X O . X O . . O X .
+select a column player 1
+F
+F
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+. . . X O . . . . .
+O . . X X . . . . .
+X O . X O X . O X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+. . . X O . . . . .
+O . . X X . . . O .
+X O . X O X . O X .
+select a column player 1
+A
+A
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+X . . X O . . . . .
+O . . X X . . . O .
+X O . X O X . O X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+X . . X O . . . O .
+O . . X X . . . O .
+X O . X O X . O X .
+select a column player 1
+B
+B
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+X . . X O . . . O .
+O X . X X . . . O .
+X O . X O X . O X .
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+X . . X O . . . O .
+O X . X X . . . O .
+X O O X O X . O X .
+select a column player 1
+J
+J
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+X . . X O . . . O .
+O X . X X . . . O .
+X O O X O X . O X X
+Mr Omnipotent : HAHAHAAA NOT SO FAST
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . O . . . . . .
+X . . X O . . . O .
+O X O X X . . . O .
+X O O X O X . O X X
+select a column player 1
+A
+A
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . O . . . . . .
+X . . X O . . . O .
+O X O X X . . . O .
+X O O X O X . O X X
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . O . . . . . .
+X . . X O . . . O .
+O X O X X O . . O .
+X O O X O X . O X X
+select a column player 1
+B
+B
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . O . . . . . .
+X X . X O . . . O .
+O X O X X O . . O .
+X O O X O X . O X X
+Mr Omnipotent : I came I saw I won HAHAHAAA
+Mr. Omnipotent won
+A B C D E F G H I J
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+X . . o . . . . . .
+X X . X o . . . O .
+O X O X X o . . O .
+X O O X O X o O X X
