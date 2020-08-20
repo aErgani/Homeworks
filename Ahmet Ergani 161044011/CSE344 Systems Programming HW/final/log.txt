@@ -1,0 +1,36 @@
+Path To Input File: Gnutella08.txt
+Port: 57568
+Path To Log File: ./log.txt
+Initial Thread Count: 5
+Max Thread Count: 10
+Graph loaded. Node Count : 6301 Edge Count : 20777
+Thread #0: waiting for connection
+Thread #2: waiting for connection
+Thread #1: waiting for connection
+Thread #3: waiting for connection
+Thread #4: waiting for connection
+A connection has been delegated to thread id #0 system load %20.00
+Thread #0: searching database for a path from node 0 to node 252 
+Thread #0: no path in database, calculating 0->252
+Thread #0: path calculated: 0->10->9->8->7->6->5->4->3->2->1->252
+Thread #0: responding to client and adding path to database
+Thread #0: waiting for connection
+A connection has been delegated to thread id #0 system load %20.00
+Thread #0: searching database for a path from node 0 to node 6 
+Thread #0: no path in database, calculating 0->6
+Thread #0: path calculated: 0->10->9->8->7->6
+Thread #0: responding to client and adding path to database
+Thread #0: waiting for connection
+A connection has been delegated to thread id #0 system load %20.00
+Thread #0: searching database for a path from node 0 to node 6 
+Thread #0: path found in database: 0->10->9->8->7->6
+Thread #0: responding to client
+Thread #0: waiting for connection
+A connection has been delegated to thread id #0 system load %20.00
+Thread #0: searching database for a path from node 0 to node 252 
+Thread #0: path found in database: 0->10->9->8->7->6->5->4->3->2->1->252
+Thread #0: responding to client
+Thread #0: waiting for connection
+
+Termination signal received, waiting for ongoing threads to complete.
+All threads have terminated, server shutting down.

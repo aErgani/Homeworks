@@ -1,0 +1,16 @@
+all: program
+
+program: makeFileSystem.o fileSystemOper.o
+	g++ makeFileSystem.o -o makeFileSystem
+	g++ fileSystemOper.o -o fileSystemOper
+
+makeFileSystem.o:
+	g++ -c makeFileSystem.cpp
+fileSystemOper.o:
+	g++ -c fileSystemOper.cpp
+
+clean:
+	rm makeFileSystem
+	rm makeFileSystem.o
+	rm fileSystemOper
+	rm fileSystemOper.o

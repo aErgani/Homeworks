@@ -1,0 +1,377 @@
+Virtual Memory Size: 32
+Physical Memory Size: 8
+Frame Size: 16
+Replacement Algorithm: NRU
+Interval: 10000
+File: diskFileName.txt
+tlbTable[0] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[1] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[2] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[3] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 0
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 0 usage : 1
+tlbTable[1] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+tlbTable[2] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+tlbTable[3] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 16
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 0 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 1 usage : 1
+tlbTable[2] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 32
+tlbTable[3] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 32
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 32
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 32
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 32
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 32
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 0 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 1 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 2 usage : 1
+tlbTable[3] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 48
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 48
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 48
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 48
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 48
+FIND NRU 3
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 0 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 1 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 2 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 3 usage : 0
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 63
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 63
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 63
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 63
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 0 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 1 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 2 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 3 usage : 1
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 64
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 64
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 64
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 64
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 4 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 1 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 2 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 3 usage : 17
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 80
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 80
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 80
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 80
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 4 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 5 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 2 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 3 usage : 33
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 96
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 96
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 96
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 96
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 4 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 5 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 6 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 3 usage : 49
+tlbTable[4] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 112
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 112
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 112
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 112
+FIND NRU 4
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 4 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 5 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 6 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 3 usage : 64
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 7 usage : 0
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 127
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 127
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 127
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 4 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 5 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 6 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 3 usage : 65
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 7 usage : 1
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 128
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 128
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 128
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 8 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 5 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 6 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 3 usage : 81
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 7 usage : 17
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 144
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 144
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 144
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 8 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 9 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 6 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 3 usage : 97
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 7 usage : 33
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 160
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 160
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 160
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 8 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 9 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 10 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 3 usage : 113
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 7 usage : 49
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 176
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 176
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 176
+FIND NRU 3
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 8 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 9 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 10 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 11 usage : 0
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 7 usage : 64
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 191
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 191
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 191
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 8 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 9 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 10 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 11 usage : 1
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 7 usage : 65
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 192
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 192
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 192
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 12 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 9 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 10 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 11 usage : 17
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 7 usage : 81
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 208
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 208
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 208
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 12 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 13 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 10 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 11 usage : 33
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 7 usage : 97
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 224
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 224
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 224
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 12 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 13 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 14 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 11 usage : 49
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 7 usage : 113
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 240
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 240
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 240
+FIND NRU 4
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 12 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 13 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 14 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 11 usage : 64
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 15 usage : 0
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 255
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 255
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 255
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 12 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 13 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 14 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 11 usage : 65
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 15 usage : 1
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 256
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 256
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 256
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 16 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 13 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 14 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 11 usage : 81
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 15 usage : 17
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 272
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 272
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 272
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 16 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 17 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 14 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 11 usage : 97
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 15 usage : 33
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 288
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 288
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 288
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 16 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 17 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 18 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 11 usage : 113
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 15 usage : 49
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 304
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 304
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 304
+FIND NRU 3
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 16 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 17 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 18 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 19 usage : 0
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 15 usage : 64
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 319
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 319
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 319
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 16 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 17 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 18 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 19 usage : 1
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 15 usage : 65
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 320
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 320
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 320
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 20 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 17 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 18 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 19 usage : 17
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 15 usage : 81
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 336
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 336
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 336
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 20 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 21 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 18 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 19 usage : 33
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 15 usage : 97
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 352
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 352
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 352
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 20 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 21 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 22 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 19 usage : 49
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 15 usage : 113
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 368
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 368
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 368
+FIND NRU 4
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 20 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 21 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 22 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 19 usage : 64
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 23 usage : 0
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 383
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 383
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 383
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 20 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 21 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 22 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 19 usage : 65
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 23 usage : 1
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 384
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 384
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 384
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 24 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 21 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 22 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 19 usage : 81
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 23 usage : 17
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 400
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 400
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 400
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 24 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 25 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 22 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 19 usage : 97
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 23 usage : 33
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 416
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 416
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 416
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 24 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 25 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 26 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 19 usage : 113
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 23 usage : 49
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 432
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 432
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 432
+FIND NRU 3
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 24 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 25 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 26 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 27 usage : 0
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 23 usage : 64
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 447
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 447
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 447
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 24 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 25 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 26 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 27 usage : 1
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 23 usage : 65
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 448
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 448
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 448
+FIND NRU 0
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 28 usage : 1
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 25 usage : 49
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 26 usage : 33
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 27 usage : 17
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 23 usage : 81
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 464
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 464
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 464
+FIND NRU 1
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 28 usage : 17
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 29 usage : 1
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 26 usage : 49
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 27 usage : 33
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 23 usage : 97
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 480
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 480
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 480
+FIND NRU 2
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 28 usage : 33
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 29 usage : 17
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 30 usage : 1
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 27 usage : 49
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 23 usage : 113
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 496
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 496
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 496
+FIND NRU 4
+NRU RESET
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 28 usage : 48
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 29 usage : 32
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 30 usage : 16
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 27 usage : 64
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 31 usage : 0
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 511
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 511
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 511
+tlbTable[0] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 28 usage : 49
+tlbTable[1] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 29 usage : 33
+tlbTable[2] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 30 usage : 17
+tlbTable[3] -> isOccupied : 1 isModified : 1 isReferenced : 0 frameNo : 27 usage : 65
+tlbTable[4] -> isOccupied : 1 isModified : 1 isReferenced : 1 frameNo : 31 usage : 1
+tlbTable[5] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 512
+tlbTable[6] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 512
+tlbTable[7] -> isOccupied : 0 isModified : 0 isReferenced : 0 frameNo : 0 usage : 512
+FIND NRU 0
+NRU RESET
+tlbTable[0] -> isOccupied 
